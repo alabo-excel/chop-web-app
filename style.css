@@ -1,0 +1,110 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.row {
+    margin-left: 0px!important;
+    margin-right: 0px!important;
+}
+
+.download-btn {
+    background-color: #2D4059;
+    border-radius: 30px;
+    width: auto;
+}
+
+.hero {
+    background-color: #FFC107;
+    height: 100vh;
+}
+
+.download {
+    width: 35%;
+    text-align: center;
+}
+
+.bg {
+    background-color: rgba(45, 64, 89, 0.15);
+    position: absolute;
+    width: 397px;
+    height: 540px;
+    left: 200px;
+    top: -50px;
+}
+
+.card {
+    width: 120%;
+    border-radius: 30px;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+#icons {
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+}
+
+h6 {
+    font-weight: 700;
+}
+
+.play-store {
+    background-color: rgba(45, 64, 89, 0.15);
+    border-radius: 30px;
+}
+
+#img2 {
+    width: 100%;
+}
+
+#store {
+    width: 70%;
+}
+
+input {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.steps {
+    background-color: #FFC107;
+}
+
+@media (max-width: 500px) {
+    .hero {
+        height: 130vh;
+    }
+    #img1 {
+        width: 100%;
+    }
+    .bg {
+        display: none;
+    }
+    input {
+        margin-top: 20px;
+    }
+    .card {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .why-use {
+        margin-top: 30%!important;
+    }
+    h1 {
+        font-size: 35px;
+    }
+    .download {
+        width: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    /* #img2 {
+        width: 80%;
+    } */
+}
