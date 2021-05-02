@@ -14,8 +14,14 @@ body {
 }
 
 .hero {
-    background-color: #FFC107;
+    background-color: #BE1931;
     height: 100vh;
+    color: white;
+}
+
+.footer {
+    background-color: #BE1931;
+    color: white;
 }
 
 .download {
@@ -57,7 +63,8 @@ h6 {
 }
 
 #img2 {
-    width: 100%;
+    width: 200%;
+    margin-left: -80px!important;
 }
 
 #store {
@@ -73,7 +80,17 @@ input {
 }
 
 .steps {
-    background-color: #FFC107;
+    background-color: #BE1931;
+    color: white;
+}
+
+.rounded {
+    border-radius: 100%!important;
+    width: 80px;
+}
+
+.vendors img {
+    width: 100%;
 }
 
 @media (max-width: 500px) {
@@ -104,7 +121,8 @@ input {
         margin-top: 30px;
         margin-bottom: 30px;
     }
-    /* #img2 {
-        width: 80%;
-    } */
+    #img2 {
+        width: 100%;
+        margin-left: 0px!important;
+    }
 }
