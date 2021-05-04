@@ -1,0 +1,38 @@
+    body {
+        font-family: 'Montserrat', sans-serif;
+        overflow-x: hidden!important;
+    }
+    
+    .row {
+        margin-left: 0px!important;
+        margin-right: 0px!important;
+    }
+    
+    .hero {
+        background-color: #BE1931;
+        height: 100vh;
+        color: white;
+        padding-top: 100px;
+    }
+    
+    .download-btn {
+        background-color: #2D4059;
+        border-radius: 30px;
+        width: 200px;
+    }
+    
+    #error {
+        width: 100%;
+        margin-top: 50px;
+    }
+    
+    @media (max-width: 500px) {
+        .hero {
+            padding-top: 40px;
+            height: auto;
+        }
+        #error {
+            margin-top: -50px;
+            margin-bottom: 40px;
+        }
+    }
