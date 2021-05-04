@@ -1,5 +1,6 @@
 body {
     font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden!important;
 }
 
 .row {
@@ -84,7 +85,7 @@ input {
     color: white;
 }
 
-.rounded {
+#rounded {
     border-radius: 100%!important;
     width: 80px;
 }
